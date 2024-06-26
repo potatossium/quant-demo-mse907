@@ -1,0 +1,20 @@
+# Ignore all files in the data/raw/ directory, except certain files
+data/raw/*
+data/processed/*
+!data/processed/cluster_correlation.csv
+
+# Ignore cache and temporary files
+.pybrokercache/
+.vscode/
+*.pyc
+__pycache__/
+*.pkl
+*.db
+
+# Ignore portfolio and temporary CSV files
+portfolio_*.csv
+temp_portfolio.csv
+temp_trades.csv
+
+# Ignore Jupyter notebook checkpoints
+notebooks/.ipynb_checkpoints/
